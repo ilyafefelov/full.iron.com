@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2c8815e4-0af0-4552-aca8-e075265d2e68" name="full-iron.com" url="http://ftp.full-iron.com">
+        <fileTransfer host="ftp.full-iron.com" port="21" rootFolder="/home2/ilyafefelov/public_html" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
