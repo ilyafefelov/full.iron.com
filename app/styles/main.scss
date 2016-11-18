@@ -1,4 +1,5 @@
 @import "src/material-design-lite";
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Noto+Sans');
 
 /**
  * Copyright 2015 Google Inc. All Rights Reserved.
@@ -22,10 +23,21 @@ will be correctly compiled during `gulp serve` and `gulp`
  */
 
 html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-family: 'Noto Sans', 'Roboto', 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
 }
+
+
+/*full-iron*/
+.text-msg {
+  background-color: #64ffda;
+  color: #393939;
+}
+
+
+
+//*material design*/
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
 }
